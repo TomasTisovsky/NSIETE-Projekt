@@ -77,7 +77,7 @@ def run_single_experiment(data: Dict[str, Any], config: Dict[str, Any], seed: in
         data["train"]["X"], data["train"]["y"],
         data["val"]["X"], data["val"]["y"],
         epochs=int(config["epochs"]),
-        early_stopping=True,
+        early_stopping=False,
         patience=15,
     )
 
