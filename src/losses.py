@@ -1,32 +1,9 @@
 """
-Loss functions with forward and backward passes.
+Loss function with forward and backward passes.
 """
 
 import numpy as np
 from .base import Module
-
-
-class MSELoss(Module):
-    """Mean Squared Error loss."""
-    
-    def __init__(self, reduce: str = "mean"):
-        super(MSELoss, self).__init__()
-        if reduce == "mean":
-            self.reduce_fn = np.mean
-        elif reduce == "sum":
-            self.reduce_fn = np.sum
-        elif reduce is None:
-            self.reduce_fn = lambda x: x
-        else:
-            raise ValueError(f"reduce must be 'mean', 'sum', or None, got {reduce}")
-    
-    def forward(self, input: np.ndarray, target: np.ndarray) -> np.ndarray:
-        """Compute MSE loss."""
-        return self.reduce_fn(np.power(target - input, 2))
-    
-    def backward(self, input: np.ndarray, target: np.ndarray) -> np.ndarray:
-        """Compute gradient of MSE loss."""
-        return -2.0 * (target - input)
 
 
 class BCELoss(Module):
