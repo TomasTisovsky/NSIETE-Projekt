@@ -1,0 +1,9 @@
+matplotlib
+scikit-image
+opencv-python
+pandas
+plotly
+imageio
+wandb
+nbformat
+ucimlrepo
