@@ -35,7 +35,7 @@ def create_model_from_config(config: dict):
         Model instance
     """
     from .model import Model
-    from .layers import Linear
+    from .layers import Linear, Dropout
     from .activations import Sigmoid, Tanh, ReLU, LeakyReLU
     
     activations_map = {
@@ -65,6 +65,10 @@ def create_model_from_config(config: dict):
                 model.add_module(activation_class(alpha), f'{activation_name}_{i}')
             else:
                 model.add_module(activation_class(), f'{activation_name}_{i}')
+
+        elif layer_type == 'dropout':
+            p = layer_config.get('p', 0.2)
+            model.add_module(Dropout(p=p), f'dropout_{i}')
     
     return model
 

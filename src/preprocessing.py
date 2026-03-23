@@ -12,9 +12,6 @@ from pathlib import Path
 class PreprocessingConfig:
     """Configuration for data loading and preprocessing."""
     
-    # UCI ML Repository ID for MAGIC Telescope
-    UCI_DATASET_ID = 159
-    
     # Class mapping
     CLASS_MAPPING = {'g': 1, 'h': 0}  # gamma -> 1, hadron -> 0
     
@@ -43,7 +40,7 @@ def load_magic_dataset():
         print("Loading MAGIC Gamma Telescope dataset from UCI ML Repository...")
         
         # Fetch dataset
-        magic = fetch_ucirepo(id=PreprocessingConfig.UCI_DATASET_ID)
+        magic = fetch_ucirepo(id=159)
         
         X = magic.data.features.values.astype(np.float32)
         y = magic.data.targets.iloc[:, 0].values

@@ -1,0 +1,1 @@
+experiment_name,architecture,activation,optimizer,learning_rate,batch_size,epochs,dropout,best_validation_loss,validation_accuracy,validation_f1,test_accuracy,test_precision,test_recall,test_f1

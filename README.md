@@ -8,7 +8,9 @@ A from-scratch implementation of a Multi-Layer Perceptron neural network for the
 - **Educational style**: Clean, modular code inspired by PyTorch's API
 - **Full training pipeline**: Layers, activations, losses, optimizers, training loop
 - **Multiple optimizers**: SGD, SGDMomentum, RMSprop, Adam
+- **Improvement technique included**: Dropout regularization layer
 - **Comprehensive metrics**: Accuracy, precision, recall, F1, ROC curves
+- **Experiment tracking**: Multi-run comparison saved to CSV
 
 ## Project Structure
 
@@ -24,6 +26,7 @@ project/
 │   ├── preprocessing.py  # Data loading and preprocessing
 │   ├── metrics.py        # Evaluation metrics
 │   ├── trainer.py        # Training loop
+│   ├── experiments.py    # Multi-experiment runner and CSV logging
 │   ├── utils.py          # Helper utilities
 │   └── visualization.py  # Plotting utilities
 ├── notebooks/
@@ -60,6 +63,11 @@ The dataset is automatically loaded from UCI ML Repository in the notebooks.
 
 ```bash
 jupyter notebook notebooks/training_and_experiments.ipynb
+
+### 4. Run tracked experiments
+
+The notebook section "Multi-Experiment Tracking" runs predefined configurations
+and writes outputs to `results/experiments.csv`.
 ```
 
 ## Model Architecture

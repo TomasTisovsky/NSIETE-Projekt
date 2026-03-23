@@ -43,6 +43,7 @@ class Trainer:
         Returns:
             average loss for epoch
         """
+        self.model.train()
         n_samples = X_train.shape[0]
         indices = np.arange(n_samples)
         
@@ -84,6 +85,7 @@ class Trainer:
         Returns:
             tuple (loss, metrics_dict)
         """
+        self.model.eval()
         X_T = X.T  # (n_features, n_samples)
         y_T = y.reshape(1, -1)  # (1, n_samples)
         
@@ -94,8 +96,7 @@ class Trainer:
         loss = self.loss_fn.forward(y_pred, y_T)
         
         # Metrics
-        y_pred_class = threshold_predictions(y_pred, threshold)
-        metrics = evaluate_model(y.flatten(), y_pred_class)
+        metrics = evaluate_model(y.flatten(), y_pred, threshold=threshold)
         
         return float(loss), metrics
     
@@ -162,6 +163,7 @@ class Trainer:
         Returns:
             probabilities, shape (n_samples,)
         """
+        self.model.eval()
         X_T = X.T  # (n_features, n_samples)
         y_pred = self.model.forward(X_T)
         return y_pred.flatten()

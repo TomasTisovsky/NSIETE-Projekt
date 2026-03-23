@@ -12,6 +12,7 @@ class Module:
     
     def __init__(self):
         self.modules = OrderedDict()
+        self.training = True
     
     def add_module(self, module, name: str):
         """Add a submodule to this module."""
@@ -34,6 +35,22 @@ class Module:
     def __call__(self, *args, **kwargs):
         """Allow calling module as a function."""
         return self.forward(*args, **kwargs)
+
+    def train(self):
+        """Set module and all submodules to training mode."""
+        self.training = True
+        for module in self.modules.values():
+            if hasattr(module, "train"):
+                module.train()
+        return self
+
+    def eval(self):
+        """Set module and all submodules to evaluation mode."""
+        self.training = False
+        for module in self.modules.values():
+            if hasattr(module, "eval"):
+                module.eval()
+        return self
     
     def get_optimizer_context(self):
         """Return parameter gradients for optimizer. To be implemented by layer classes."""

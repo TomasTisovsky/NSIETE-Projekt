@@ -44,6 +44,13 @@ class Linear(Module):
         Returns:
             output: shape (out_features, batch_size)
         """
+        if input.ndim != 2:
+            raise ValueError(f"Linear.forward expects 2D input, got shape {input.shape}")
+        if input.shape[0] != self.in_features:
+            raise ValueError(
+                f"Linear.forward expected input with {self.in_features} features, got {input.shape[0]}"
+            )
+
         self.fw_inputs = input
         self.m = input.shape[1] if len(input.shape) > 1 else 1
         net = np.matmul(self.W, input) + self.b
@@ -59,6 +66,13 @@ class Linear(Module):
         Returns:
             dx: gradient w.r.t. input, shape (in_features, batch_size)
         """
+        if dz.ndim != 2:
+            raise ValueError(f"Linear.backward expects 2D gradient, got shape {dz.shape}")
+        if dz.shape[0] != self.out_features:
+            raise ValueError(
+                f"Linear.backward expected gradient with {self.out_features} outputs, got {dz.shape[0]}"
+            )
+
         # Compute gradients
         self.dW = (1.0 / self.m) * np.matmul(dz, self.fw_inputs.T)
         self.db = (1.0 / self.m) * np.sum(dz, axis=1, keepdims=True)
@@ -74,3 +88,35 @@ class Linear(Module):
     def set_optimizer_context(self, params):
         """Update parameters from optimizer."""
         self.W, self.b = params
+
+
+class Dropout(Module):
+    """
+    Dropout regularization layer.
+
+    During training it drops activations with probability p and rescales
+    surviving activations by 1 / (1 - p).
+    """
+
+    def __init__(self, p: float = 0.2):
+        super(Dropout, self).__init__()
+        if not 0.0 <= p < 1.0:
+            raise ValueError(f"Dropout probability must be in [0, 1), got {p}")
+        self.p = p
+        self.mask = None
+
+    def forward(self, input: np.ndarray) -> np.ndarray:
+        """Apply dropout mask in training mode, identity in eval mode."""
+        if not self.training or self.p == 0.0:
+            self.mask = None
+            return input
+
+        keep_prob = 1.0 - self.p
+        self.mask = (np.random.rand(*input.shape) < keep_prob).astype(input.dtype) / keep_prob
+        return input * self.mask
+
+    def backward(self, da: np.ndarray) -> np.ndarray:
+        """Propagate gradients through the same dropout mask."""
+        if not self.training or self.p == 0.0 or self.mask is None:
+            return da
+        return da * self.mask
