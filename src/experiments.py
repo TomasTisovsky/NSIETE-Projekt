@@ -125,6 +125,26 @@ def default_experiment_configs() -> List[Dict[str, Any]]:
             "epochs": 120,
             "dropout": 0.2,
         },
+        {
+            "name": "leaky_relu_adam",
+            "hidden_dims": [32, 16],
+            "activation": "leaky_relu",
+            "optimizer": "adam",
+            "learning_rate": 1e-3,
+            "batch_size": 32,
+            "epochs": 100,
+            "dropout": 0.0,
+        },
+        {
+            "name": "relu_sgd_momentum",
+            "hidden_dims": [32, 16],
+            "activation": "relu",
+            "optimizer": "sgd_momentum",
+            "learning_rate": 1e-2,
+            "batch_size": 32,
+            "epochs": 100,
+            "dropout": 0.0,
+        }
     ]
 
 
