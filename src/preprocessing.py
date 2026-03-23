@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from pathlib import Path
 
 
 class PreprocessingConfig:
@@ -58,7 +57,7 @@ def load_magic_dataset():
 
 def preprocess_data(X, y, normalize=True, random_state=None):
     """
-    Split data into train/val/test and normalize.
+    Split data into train/val/test and optionally normalize.
     
     Args:
         X: features
@@ -67,17 +66,35 @@ def preprocess_data(X, y, normalize=True, random_state=None):
         random_state: for reproducibility
     
     Returns:
-        dict with 'train', 'val', 'test' splits and 'scaler'
+        dict with 'train', 'val', 'test' splits and 'scaler'.
+        If normalize is False, scaler is None.
     """
     if random_state is None:
         random_state = PreprocessingConfig.RANDOM_STATE
+
+    # Remove duplicate rows before splitting to avoid data leakage between splits.
+    X = np.asarray(X)
+    y = np.asarray(y).reshape(-1)
+    if X.shape[0] != y.shape[0]:
+        raise ValueError("X and y must have the same number of samples.")
+
+    df = pd.DataFrame(X)
+    df["__target__"] = y
+    n_before = len(df)
+    df = df.drop_duplicates()
+    n_removed = n_before - len(df)
+    if n_removed > 0:
+        print(f"Removed {n_removed} duplicate rows before splitting.")
+
+    X_clean = df.drop(columns=["__target__"]).to_numpy(dtype=np.float32)
+    y_clean = df["__target__"].to_numpy(dtype=np.float32)
     
     # Train/val/test split
     X_train, X_temp, y_train, y_temp = train_test_split(
-        X, y,
+        X_clean, y_clean,
         train_size=PreprocessingConfig.TRAIN_RATIO,
         random_state=random_state,
-        stratify=y
+        stratify=y_clean
     )
     
     # Split temp into val and test
@@ -89,11 +106,17 @@ def preprocess_data(X, y, normalize=True, random_state=None):
         stratify=y_temp
     )
     
-    # Normalize using train statistics
-    scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train).astype(np.float32)
-    X_val = scaler.transform(X_val).astype(np.float32)
-    X_test = scaler.transform(X_test).astype(np.float32)
+    scaler = None
+    if normalize:
+        # Normalize using train statistics only.
+        scaler = StandardScaler()
+        X_train = scaler.fit_transform(X_train).astype(np.float32)
+        X_val = scaler.transform(X_val).astype(np.float32)
+        X_test = scaler.transform(X_test).astype(np.float32)
+    else:
+        X_train = X_train.astype(np.float32)
+        X_val = X_val.astype(np.float32)
+        X_test = X_test.astype(np.float32)
     
     return {
         'train': {'X': X_train, 'y': y_train},
