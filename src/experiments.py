@@ -2,8 +2,6 @@
 Experiment utilities for running and tracking multiple MLP configurations.
 """
 
-import csv
-from pathlib import Path
 from typing import Dict, List, Any
 
 import numpy as np
@@ -62,122 +60,6 @@ def create_optimizer(name: str, lr: float):
     raise ValueError(f"Unsupported optimizer '{name}'.")
 
 
-def default_experiment_configs() -> List[Dict[str, Any]]:
-    """Ready-to-run experiment configs requested in assignment."""
-    return [
-        {
-            "name": "baseline_relu_adam",
-            "hidden_layers": [32, 16],
-            "activation": "relu",
-            "optimizer": "adam",
-            "learning_rate": 1e-3,
-            "batch_size": 32,
-            "epochs": 80,
-            "dropout": 0.0,
-        },
-        {
-            "name": "deeper_relu_adam",
-            "hidden_layers": [64, 32, 16],
-            "activation": "relu",
-            "optimizer": "adam",
-            "learning_rate": 1e-3,
-            "batch_size": 32,
-            "epochs": 100,
-            "dropout": 0.0,
-        },
-        {
-            "name": "tanh_sgd",
-            "hidden_layers": [32, 16],
-            "activation": "tanh",
-            "optimizer": "sgd",
-            "learning_rate": 1e-2,
-            "batch_size": 32,
-            "epochs": 100,
-            "dropout": 0.0,
-        },
-        {
-            "name": "relu_rmsprop",
-            "hidden_layers": [32, 16],
-            "activation": "relu",
-            "optimizer": "rmsprop",
-            "learning_rate": 1e-3,
-            "batch_size": 32,
-            "epochs": 100,
-            "dropout": 0.0,
-        },
-        {
-            "name": "relu_adam_small_lr",
-            "hidden_layers": [32, 16],
-            "activation": "relu",
-            "optimizer": "adam",
-            "learning_rate": 3e-4,
-            "batch_size": 32,
-            "epochs": 120,
-            "dropout": 0.0,
-        },
-        {
-            "name": "relu_adam_dropout",
-            "hidden_layers": [64, 32, 16],
-            "activation": "relu",
-            "optimizer": "adam",
-            "learning_rate": 1e-3,
-            "batch_size": 32,
-            "epochs": 120,
-            "dropout": 0.2,
-        },
-        {
-            "name": "leaky_relu_adam",
-            "hidden_dims": [32, 16],
-            "activation": "leaky_relu",
-            "optimizer": "adam",
-            "learning_rate": 1e-3,
-            "batch_size": 32,
-            "epochs": 100,
-            "dropout": 0.0,
-        },
-        {
-            "name": "relu_sgd_momentum",
-            "hidden_dims": [32, 16],
-            "activation": "relu",
-            "optimizer": "sgd_momentum",
-            "learning_rate": 1e-2,
-            "batch_size": 32,
-            "epochs": 100,
-            "dropout": 0.0,
-        }
-    ]
-
-
-def _append_result_to_csv(csv_path: Path, row: Dict[str, Any]) -> None:
-    """Append one experiment row to CSV, creating file with header if needed."""
-    csv_path.parent.mkdir(parents=True, exist_ok=True)
-
-    fieldnames = [
-        "experiment_name",
-        "architecture",
-        "activation",
-        "optimizer",
-        "learning_rate",
-        "batch_size",
-        "epochs",
-        "dropout",
-        "best_validation_loss",
-        "validation_accuracy",
-        "validation_f1",
-        "test_accuracy",
-        "test_precision",
-        "test_recall",
-        "test_f1",
-    ]
-
-    write_header = not csv_path.exists()
-    with open(csv_path, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if write_header:
-            writer.writeheader()
-        writer.writerow(row)
-
-
 def run_single_experiment(data: Dict[str, Any], config: Dict[str, Any], seed: int = 42) -> Dict[str, Any]:
     """Run one experiment and return summary metrics."""
     set_seed(seed)
@@ -220,29 +102,3 @@ def run_single_experiment(data: Dict[str, Any], config: Dict[str, Any], seed: in
         "test_recall": float(test_metrics["recall"]),
         "test_f1": float(test_metrics["f1"]),
     }
-
-
-def run_experiments(
-    data: Dict[str, Any],
-    configs: List[Dict[str, Any]],
-    results_csv: str = "results/experiments.csv",
-    seed: int = 42,
-) -> List[Dict[str, Any]]:
-    """Run multiple experiments and persist result rows to CSV."""
-    csv_path = Path(results_csv)
-    if csv_path.exists():
-        csv_path.unlink()
-
-    rows: List[Dict[str, Any]] = []
-    for config in configs:
-        print(f"\nRunning experiment: {config['name']}")
-        row = run_single_experiment(data, config, seed=seed)
-        _append_result_to_csv(csv_path, row)
-        rows.append(row)
-        print(
-            f"Done {row['experiment_name']} | "
-            f"val_f1={row['validation_f1']:.4f} | test_f1={row['test_f1']:.4f}"
-        )
-
-    rows.sort(key=lambda r: r["validation_f1"], reverse=True)
-    return rows
