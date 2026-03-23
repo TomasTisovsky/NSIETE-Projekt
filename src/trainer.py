@@ -2,6 +2,7 @@
 Training loop utilities.
 """
 
+import copy
 import numpy as np
 from .metrics import evaluate_model, threshold_predictions
 
@@ -118,6 +119,27 @@ class Trainer:
         """
         best_val_loss = float('inf')
         patience_counter = 0
+        best_layer_params = None
+        stopped_early = False
+
+        def snapshot_trainable_params():
+            """Save a deep copy of trainable parameters for best-checkpoint restore."""
+            params = {}
+            for name, layer in self.model.get_trainable_layers():
+                context = layer.get_optimizer_context()
+                if context is not None:
+                    [[W, _], [b, _]] = context
+                    params[name] = [copy.deepcopy(W), copy.deepcopy(b)]
+            return params
+
+        def restore_trainable_params(params):
+            """Restore trainable parameters from a saved checkpoint."""
+            if params is None:
+                return
+            for name, layer in self.model.get_trainable_layers():
+                if name in params:
+                    W, b = params[name]
+                    layer.set_optimizer_context([copy.deepcopy(W), copy.deepcopy(b)])
         
         for epoch in range(epochs):
             # Train
@@ -134,15 +156,17 @@ class Trainer:
             self.history['train_acc'].append(train_metrics['accuracy'])
             
             # Early stopping
-            if early_stopping:
-                if val_loss < best_val_loss:
-                    best_val_loss = val_loss
-                    patience_counter = 0
-                else:
-                    patience_counter += 1
-                    if patience_counter >= patience:
-                        print(f"Early stopping at epoch {epoch}")
-                        break
+            if val_loss < best_val_loss:
+                best_val_loss = val_loss
+                patience_counter = 0
+                # Save best weights so the final model reflects the best validation performance.
+                best_layer_params = snapshot_trainable_params()
+            elif early_stopping:
+                patience_counter += 1
+                if patience_counter >= patience:
+                    print(f"Early stopping at epoch {epoch}")
+                    stopped_early = True
+                    break
             
             if (epoch + 1) % 10 == 0 or epoch == 0:
                 print(f"Epoch {epoch+1}/{epochs} - "
@@ -150,6 +174,11 @@ class Trainer:
                       f"val_loss: {val_loss:.4f} - "
                       f"acc: {train_metrics['accuracy']:.4f} - "
                       f"val_acc: {val_metrics['accuracy']:.4f}")
+
+        # Restore best weights so evaluation uses the best validation checkpoint, not the last epoch.
+        restore_trainable_params(best_layer_params)
+        if stopped_early:
+            print("Restored best model weights from lowest validation loss.")
         
         return self.history
     
