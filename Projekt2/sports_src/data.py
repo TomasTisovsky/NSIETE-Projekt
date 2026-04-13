@@ -24,6 +24,58 @@ ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp", ".tif", 
 SPLIT_FOLDER_NAMES = {"train", "valid", "val", "test"}
 
 
+# Optional manual merging of multiple original labels into a single class.
+#
+# We build the mapping to be robust to different naming styles in the
+# dataset (spaces vs underscores, different casing, etc.).
+BASE_MERGED_LABEL_GROUPS = [
+    # figure skating variants
+    (["figure skating men", "figure skating women", "figure skating pairs"], "figure skating"),
+    # car racing
+    (["formula 1 racing", "nascar racing"], "car racing"),
+    # motorcycle racing
+    (["motorcycle racing", "sidecar racing"], "motorcycle racing"),
+    # cycling on track
+    (["bmx", "track bicycle"], "cycling"),
+    # athletics (field / track events)
+    (["high jump", "hurdles", "javelin", "hammer throw", "shot put", "pole vault"], "athletics"),
+    # gymnastics apparatus
+    (["balance beam", "parallel bar", "pommel horse", "rings", "uneven bars"], "gymnastics"),
+    # combat sports
+    (["boxing", "judo", "olympic wrestling", "sumo wrestling"], "combat sports"),
+    # air / sky sports
+    (["hang gliding", "sky surfing", "skydiving", "wingsuit flying"], "air sports"),
+    # horse-related sports
+    (["horse jumping", "horse racing", "barrel racing", "harness racing", "polo", "jousting"], "horse sports"),
+    # watercraft racing
+    (["rowing", "canoe slalom", "sailboat racing", "water cycling"], "watercraft racing"),
+    # basketball
+    (["basketball", "wheelchair basketball"], "basketball"),
+    # football / rugby
+    (["football", "rugby"], "football & rugby"),
+    # hockey
+    (["field hockey", "hockey"], "hockey"),
+    # water sports
+    (["surfing", "swimming", "water polo"], "water sports"),
+    # skiing / snowboarding
+    (["giant slalom", "ski jumping", "snow boarding"], "ski & snowboard"),
+    # sled sports
+    (["bobsled", "luge"], "sled sports"),
+]
+
+MERGED_LABEL_MAP: Dict[str, str] = {}
+for originals, merged in BASE_MERGED_LABEL_GROUPS:
+    for name in originals:
+        variants = {
+            name,
+            name.lower(),
+            name.replace(" ", "_"),
+            name.lower().replace(" ", "_"),
+        }
+        for v in variants:
+            MERGED_LABEL_MAP[v.lower()] = merged
+
+
 @dataclass
 class ImagePreprocessingConfig:
     """Configuration for image preprocessing and dataset splitting."""
@@ -149,7 +201,6 @@ def build_transforms(image_size: Tuple[int, int], mean: np.ndarray, std: np.ndar
         train_transforms.extend(
             [
                 transforms.RandomHorizontalFlip(),
-                transforms.RandomRotation(10),
                 transforms.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1),
             ]
         )
@@ -201,6 +252,14 @@ def load_sports_dataset(
 
     df_paths = index_image_files(dataset_root)
     df_meta = filter_valid_images(build_metadata(df_paths))
+
+    # Merge selected fine-grained labels into coarser classes before any further processing.
+    # We normalize labels to lowercase to match the keys in MERGED_LABEL_MAP.
+    if MERGED_LABEL_MAP:
+        df_meta = df_meta.copy()
+        df_meta["label"] = df_meta["label"].astype(str).str.lower()
+        df_meta["label"] = df_meta["label"].map(lambda x: MERGED_LABEL_MAP.get(x, x))
+
     df_meta = restrict_classes(df_meta, config.max_classes)
     df_meta = cap_images_per_class(df_meta, config.max_images_per_class, random_state=config.random_state)
     df_meta, label_to_idx, idx_to_label = encode_labels(df_meta)

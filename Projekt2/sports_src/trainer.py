@@ -46,7 +46,8 @@ class TorchTrainer:
         self.device = device
         self.scheduler = scheduler
         self.use_amp = bool(use_amp and device.type == "cuda")
-        self.scaler = torch.cuda.amp.GradScaler(enabled=self.use_amp)
+        # Use new torch.amp.GradScaler API (CUDA-specific)
+        self.scaler = torch.amp.GradScaler("cuda", enabled=self.use_amp)
         self.history = TrainingHistory()
         self.best_state_dict: Optional[dict] = None
         self.best_val_loss = float("inf")
@@ -69,7 +70,7 @@ class TorchTrainer:
                 self.optimizer.zero_grad(set_to_none=True)
 
             with torch.set_grad_enabled(training):
-                with torch.cuda.amp.autocast(enabled=self.use_amp):
+                with torch.amp.autocast(device_type="cuda", enabled=self.use_amp):
                     logits = self.model(images)
                     loss = self.criterion(logits, targets)
 
