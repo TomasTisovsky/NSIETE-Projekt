@@ -1,3 +1,36 @@
 .venv
 venv
 src/__pycache__/
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python build/test cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated experiment outputs
+results/
+Projekt1/results/
+Projekt2/results/
