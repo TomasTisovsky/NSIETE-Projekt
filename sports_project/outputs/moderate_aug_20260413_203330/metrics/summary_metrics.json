@@ -1,0 +1,38 @@
+{
+  "experiment": "moderate_aug",
+  "model_name": "resnet18",
+  "best_epoch": 4,
+  "num_classes": 100,
+  "dataset_sizes": {
+    "train": 13492,
+    "val": 500,
+    "test": 500
+  },
+  "split_layout": {
+    "has_split_layout": true,
+    "train": "C:\\Users\\valiceks\\.cache\\kagglehub\\datasets\\gpiosenka\\sports-classification\\versions\\9\\train",
+    "val": "C:\\Users\\valiceks\\.cache\\kagglehub\\datasets\\gpiosenka\\sports-classification\\versions\\9\\valid",
+    "test": "C:\\Users\\valiceks\\.cache\\kagglehub\\datasets\\gpiosenka\\sports-classification\\versions\\9\\test"
+  },
+  "class_merge_enabled": false,
+  "val_metrics": {
+    "accuracy": 0.842,
+    "macro_precision": 0.8888611111111112,
+    "macro_recall": 0.8420000000000001,
+    "macro_f1": 0.8418827055297645,
+    "top_1_accuracy": 0.842,
+    "top_3_accuracy": 0.954,
+    "top_5_accuracy": 0.972,
+    "loss": 0.569924668177031
+  },
+  "test_metrics": {
+    "accuracy": 0.844,
+    "macro_precision": 0.8830066877566878,
+    "macro_recall": 0.8440000000000001,
+    "macro_f1": 0.8415023587523588,
+    "top_1_accuracy": 0.844,
+    "top_3_accuracy": 0.964,
+    "top_5_accuracy": 0.976,
+    "loss": 0.48824987610429527
+  }
+}

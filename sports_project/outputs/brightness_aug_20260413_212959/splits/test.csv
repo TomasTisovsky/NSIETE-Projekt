@@ -1,0 +1,501 @@
+path,raw_label,label
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\air hockey\1.jpg,air hockey,air hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\air hockey\2.jpg,air hockey,air hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\air hockey\3.jpg,air hockey,air hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\air hockey\4.jpg,air hockey,air hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\air hockey\5.jpg,air hockey,air hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ampute football\1.jpg,ampute football,ampute football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ampute football\2.jpg,ampute football,ampute football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ampute football\3.jpg,ampute football,ampute football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ampute football\4.jpg,ampute football,ampute football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ampute football\5.jpg,ampute football,ampute football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\archery\1.jpg,archery,archery
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\archery\2.jpg,archery,archery
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\archery\3.jpg,archery,archery
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\archery\4.jpg,archery,archery
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\archery\5.jpg,archery,archery
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\arm wrestling\1.jpg,arm wrestling,arm wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\arm wrestling\2.jpg,arm wrestling,arm wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\arm wrestling\3.jpg,arm wrestling,arm wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\arm wrestling\4.jpg,arm wrestling,arm wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\arm wrestling\5.jpg,arm wrestling,arm wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\axe throwing\1.jpg,axe throwing,axe throwing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\axe throwing\2.jpg,axe throwing,axe throwing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\axe throwing\3.jpg,axe throwing,axe throwing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\axe throwing\4.jpg,axe throwing,axe throwing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\axe throwing\5.jpg,axe throwing,axe throwing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\balance beam\1.jpg,balance beam,balance beam
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\balance beam\2.jpg,balance beam,balance beam
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\balance beam\3.jpg,balance beam,balance beam
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\balance beam\4.jpg,balance beam,balance beam
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\balance beam\5.jpg,balance beam,balance beam
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\barell racing\1.jpg,barell racing,barell racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\barell racing\2.jpg,barell racing,barell racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\barell racing\3.jpg,barell racing,barell racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\barell racing\4.jpg,barell racing,barell racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\barell racing\5.jpg,barell racing,barell racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baseball\1.jpg,baseball,baseball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baseball\2.jpg,baseball,baseball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baseball\3.jpg,baseball,baseball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baseball\4.jpg,baseball,baseball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baseball\5.jpg,baseball,baseball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\basketball\1.jpg,basketball,basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\basketball\2.jpg,basketball,basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\basketball\3.jpg,basketball,basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\basketball\4.jpg,basketball,basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\basketball\5.jpg,basketball,basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baton twirling\1.jpg,baton twirling,baton twirling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baton twirling\2.jpg,baton twirling,baton twirling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baton twirling\3.jpg,baton twirling,baton twirling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baton twirling\4.jpg,baton twirling,baton twirling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\baton twirling\5.jpg,baton twirling,baton twirling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bike polo\1.jpg,bike polo,bike polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bike polo\2.jpg,bike polo,bike polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bike polo\3.jpg,bike polo,bike polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bike polo\4.jpg,bike polo,bike polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bike polo\5.jpg,bike polo,bike polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\billiards\1.jpg,billiards,billiards
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\billiards\2.jpg,billiards,billiards
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\billiards\3.jpg,billiards,billiards
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\billiards\4.jpg,billiards,billiards
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\billiards\5.jpg,billiards,billiards
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bmx\1.jpg,bmx,bmx
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bmx\2.jpg,bmx,bmx
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bmx\3.jpg,bmx,bmx
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bmx\4.jpg,bmx,bmx
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bmx\5.jpg,bmx,bmx
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bobsled\1.jpg,bobsled,bobsled
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bobsled\2.jpg,bobsled,bobsled
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bobsled\3.jpg,bobsled,bobsled
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bobsled\4.jpg,bobsled,bobsled
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bobsled\5.jpg,bobsled,bobsled
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bowling\1.jpg,bowling,bowling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bowling\2.jpg,bowling,bowling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bowling\3.jpg,bowling,bowling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bowling\4.jpg,bowling,bowling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bowling\5.jpg,bowling,bowling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\boxing\1.jpg,boxing,boxing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\boxing\2.jpg,boxing,boxing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\boxing\3.jpg,boxing,boxing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\boxing\4.jpg,boxing,boxing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\boxing\5.jpg,boxing,boxing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bull riding\1.jpg,bull riding,bull riding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bull riding\2.jpg,bull riding,bull riding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bull riding\3.jpg,bull riding,bull riding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bull riding\4.jpg,bull riding,bull riding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bull riding\5.jpg,bull riding,bull riding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bungee jumping\1.jpg,bungee jumping,bungee jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bungee jumping\2.jpg,bungee jumping,bungee jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bungee jumping\3.jpg,bungee jumping,bungee jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bungee jumping\4.jpg,bungee jumping,bungee jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\bungee jumping\5.jpg,bungee jumping,bungee jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\canoe slamon\1.jpg,canoe slamon,canoe slamon
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\canoe slamon\2.jpg,canoe slamon,canoe slamon
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\canoe slamon\3.jpg,canoe slamon,canoe slamon
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\canoe slamon\4.jpg,canoe slamon,canoe slamon
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\canoe slamon\5.jpg,canoe slamon,canoe slamon
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cheerleading\1.jpg,cheerleading,cheerleading
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cheerleading\2.jpg,cheerleading,cheerleading
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cheerleading\3.jpg,cheerleading,cheerleading
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cheerleading\4.jpg,cheerleading,cheerleading
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cheerleading\5.jpg,cheerleading,cheerleading
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\chuckwagon racing\1.jpg,chuckwagon racing,chuckwagon racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\chuckwagon racing\2.jpg,chuckwagon racing,chuckwagon racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\chuckwagon racing\3.jpg,chuckwagon racing,chuckwagon racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\chuckwagon racing\4.jpg,chuckwagon racing,chuckwagon racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\chuckwagon racing\5.jpg,chuckwagon racing,chuckwagon racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cricket\1.jpg,cricket,cricket
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cricket\2.jpg,cricket,cricket
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cricket\3.jpg,cricket,cricket
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cricket\4.jpg,cricket,cricket
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\cricket\5.jpg,cricket,cricket
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\croquet\1.jpg,croquet,croquet
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\croquet\2.jpg,croquet,croquet
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\croquet\3.jpg,croquet,croquet
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\croquet\4.jpg,croquet,croquet
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\croquet\5.jpg,croquet,croquet
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\curling\1.jpg,curling,curling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\curling\2.jpg,curling,curling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\curling\3.jpg,curling,curling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\curling\4.jpg,curling,curling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\curling\5.jpg,curling,curling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\disc golf\1.jpg,disc golf,disc golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\disc golf\2.jpg,disc golf,disc golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\disc golf\3.jpg,disc golf,disc golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\disc golf\4.jpg,disc golf,disc golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\disc golf\5.jpg,disc golf,disc golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fencing\1.jpg,fencing,fencing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fencing\2.jpg,fencing,fencing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fencing\3.jpg,fencing,fencing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fencing\4.jpg,fencing,fencing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fencing\5.jpg,fencing,fencing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\field hockey\1.jpg,field hockey,field hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\field hockey\2.jpg,field hockey,field hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\field hockey\3.jpg,field hockey,field hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\field hockey\4.jpg,field hockey,field hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\field hockey\5.jpg,field hockey,field hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating men\1.jpg,figure skating men,figure skating men
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating men\2.jpg,figure skating men,figure skating men
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating men\3.jpg,figure skating men,figure skating men
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating men\4.jpg,figure skating men,figure skating men
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating men\5.jpg,figure skating men,figure skating men
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating pairs\1.jpg,figure skating pairs,figure skating pairs
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating pairs\2.jpg,figure skating pairs,figure skating pairs
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating pairs\3.jpg,figure skating pairs,figure skating pairs
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating pairs\4.jpg,figure skating pairs,figure skating pairs
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating pairs\5.jpg,figure skating pairs,figure skating pairs
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating women\1.jpg,figure skating women,figure skating women
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating women\2.jpg,figure skating women,figure skating women
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating women\3.jpg,figure skating women,figure skating women
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating women\4.jpg,figure skating women,figure skating women
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\figure skating women\5.jpg,figure skating women,figure skating women
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fly fishing\1.jpg,fly fishing,fly fishing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fly fishing\2.jpg,fly fishing,fly fishing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fly fishing\3.jpg,fly fishing,fly fishing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fly fishing\4.jpg,fly fishing,fly fishing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\fly fishing\5.jpg,fly fishing,fly fishing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\football\1.jpg,football,football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\football\2.jpg,football,football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\football\3.jpg,football,football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\football\4.jpg,football,football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\football\5.jpg,football,football
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\formula 1 racing\1.jpg,formula 1 racing,formula 1 racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\formula 1 racing\2.jpg,formula 1 racing,formula 1 racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\formula 1 racing\3.jpg,formula 1 racing,formula 1 racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\formula 1 racing\4.jpg,formula 1 racing,formula 1 racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\formula 1 racing\5.jpg,formula 1 racing,formula 1 racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\frisbee\1.jpg,frisbee,frisbee
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\frisbee\2.jpg,frisbee,frisbee
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\frisbee\3.jpg,frisbee,frisbee
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\frisbee\4.jpg,frisbee,frisbee
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\frisbee\5.jpg,frisbee,frisbee
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\gaga\1.jpg,gaga,gaga
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\gaga\2.jpg,gaga,gaga
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\gaga\3.jpg,gaga,gaga
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\gaga\4.jpg,gaga,gaga
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\gaga\5.jpg,gaga,gaga
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\giant slalom\1.jpg,giant slalom,giant slalom
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\giant slalom\2.jpg,giant slalom,giant slalom
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\giant slalom\3.jpg,giant slalom,giant slalom
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\giant slalom\4.jpg,giant slalom,giant slalom
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\giant slalom\5.jpg,giant slalom,giant slalom
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\golf\1.jpg,golf,golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\golf\2.jpg,golf,golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\golf\3.jpg,golf,golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\golf\4.jpg,golf,golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\golf\5.jpg,golf,golf
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hammer throw\1.jpg,hammer throw,hammer throw
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hammer throw\2.jpg,hammer throw,hammer throw
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hammer throw\3.jpg,hammer throw,hammer throw
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hammer throw\4.jpg,hammer throw,hammer throw
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hammer throw\5.jpg,hammer throw,hammer throw
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hang gliding\1.jpg,hang gliding,hang gliding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hang gliding\2.jpg,hang gliding,hang gliding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hang gliding\3.jpg,hang gliding,hang gliding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hang gliding\4.jpg,hang gliding,hang gliding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hang gliding\5.jpg,hang gliding,hang gliding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\harness racing\1.jpg,harness racing,harness racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\harness racing\2.jpg,harness racing,harness racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\harness racing\3.jpg,harness racing,harness racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\harness racing\4.jpg,harness racing,harness racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\harness racing\5.jpg,harness racing,harness racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\high jump\1.jpg,high jump,high jump
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\high jump\2.jpg,high jump,high jump
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\high jump\3.jpg,high jump,high jump
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\high jump\4.jpg,high jump,high jump
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\high jump\5.jpg,high jump,high jump
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hockey\1.jpg,hockey,hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hockey\2.jpg,hockey,hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hockey\3.jpg,hockey,hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hockey\4.jpg,hockey,hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hockey\5.jpg,hockey,hockey
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse jumping\1.jpg,horse jumping,horse jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse jumping\2.jpg,horse jumping,horse jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse jumping\3.jpg,horse jumping,horse jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse jumping\4.jpg,horse jumping,horse jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse jumping\5.jpg,horse jumping,horse jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse racing\1.jpg,horse racing,horse racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse racing\2.jpg,horse racing,horse racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse racing\3.jpg,horse racing,horse racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse racing\4.jpg,horse racing,horse racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horse racing\5.jpg,horse racing,horse racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horseshoe pitching\1.jpg,horseshoe pitching,horseshoe pitching
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horseshoe pitching\2.jpg,horseshoe pitching,horseshoe pitching
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horseshoe pitching\3.jpg,horseshoe pitching,horseshoe pitching
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horseshoe pitching\4.jpg,horseshoe pitching,horseshoe pitching
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\horseshoe pitching\5.jpg,horseshoe pitching,horseshoe pitching
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hurdles\1.jpg,hurdles,hurdles
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hurdles\2.jpg,hurdles,hurdles
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hurdles\3.jpg,hurdles,hurdles
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hurdles\4.jpg,hurdles,hurdles
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hurdles\5.jpg,hurdles,hurdles
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hydroplane racing\1.jpg,hydroplane racing,hydroplane racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hydroplane racing\2.jpg,hydroplane racing,hydroplane racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hydroplane racing\3.jpg,hydroplane racing,hydroplane racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hydroplane racing\4.jpg,hydroplane racing,hydroplane racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\hydroplane racing\5.jpg,hydroplane racing,hydroplane racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice climbing\1.jpg,ice climbing,ice climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice climbing\2.jpg,ice climbing,ice climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice climbing\3.jpg,ice climbing,ice climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice climbing\4.jpg,ice climbing,ice climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice climbing\5.jpg,ice climbing,ice climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice yachting\1.jpg,ice yachting,ice yachting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice yachting\2.jpg,ice yachting,ice yachting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice yachting\3.jpg,ice yachting,ice yachting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice yachting\4.jpg,ice yachting,ice yachting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ice yachting\5.jpg,ice yachting,ice yachting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jai alai\1.jpg,jai alai,jai alai
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jai alai\2.jpg,jai alai,jai alai
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jai alai\3.jpg,jai alai,jai alai
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jai alai\4.jpg,jai alai,jai alai
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jai alai\5.jpg,jai alai,jai alai
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\javelin\1.jpg,javelin,javelin
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\javelin\2.jpg,javelin,javelin
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\javelin\3.jpg,javelin,javelin
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\javelin\4.jpg,javelin,javelin
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\javelin\5.jpg,javelin,javelin
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jousting\1.jpg,jousting,jousting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jousting\2.jpg,jousting,jousting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jousting\3.jpg,jousting,jousting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jousting\4.jpg,jousting,jousting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\jousting\5.jpg,jousting,jousting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\judo\1.jpg,judo,judo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\judo\2.jpg,judo,judo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\judo\3.jpg,judo,judo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\judo\4.jpg,judo,judo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\judo\5.jpg,judo,judo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\lacrosse\1.jpg,lacrosse,lacrosse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\lacrosse\2.jpg,lacrosse,lacrosse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\lacrosse\3.jpg,lacrosse,lacrosse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\lacrosse\4.jpg,lacrosse,lacrosse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\lacrosse\5.jpg,lacrosse,lacrosse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\log rolling\1.jpg,log rolling,log rolling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\log rolling\2.jpg,log rolling,log rolling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\log rolling\3.jpg,log rolling,log rolling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\log rolling\4.jpg,log rolling,log rolling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\log rolling\5.jpg,log rolling,log rolling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\luge\1.jpg,luge,luge
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\luge\2.jpg,luge,luge
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\luge\3.jpg,luge,luge
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\luge\4.jpg,luge,luge
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\luge\5.jpg,luge,luge
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\motorcycle racing\1.jpg,motorcycle racing,motorcycle racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\motorcycle racing\2.jpg,motorcycle racing,motorcycle racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\motorcycle racing\3.jpg,motorcycle racing,motorcycle racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\motorcycle racing\4.jpg,motorcycle racing,motorcycle racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\motorcycle racing\5.jpg,motorcycle racing,motorcycle racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\mushing\1.jpg,mushing,mushing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\mushing\2.jpg,mushing,mushing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\mushing\3.jpg,mushing,mushing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\mushing\4.jpg,mushing,mushing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\mushing\5.jpg,mushing,mushing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\nascar racing\1.jpg,nascar racing,nascar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\nascar racing\2.jpg,nascar racing,nascar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\nascar racing\3.jpg,nascar racing,nascar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\nascar racing\4.jpg,nascar racing,nascar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\nascar racing\5.jpg,nascar racing,nascar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\olympic wrestling\1.jpg,olympic wrestling,olympic wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\olympic wrestling\2.jpg,olympic wrestling,olympic wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\olympic wrestling\3.jpg,olympic wrestling,olympic wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\olympic wrestling\4.jpg,olympic wrestling,olympic wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\olympic wrestling\5.jpg,olympic wrestling,olympic wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\parallel bar\1.jpg,parallel bar,parallel bar
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\parallel bar\2.jpg,parallel bar,parallel bar
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\parallel bar\3.jpg,parallel bar,parallel bar
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\parallel bar\4.jpg,parallel bar,parallel bar
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\parallel bar\5.jpg,parallel bar,parallel bar
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole climbing\1.jpg,pole climbing,pole climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole climbing\2.jpg,pole climbing,pole climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole climbing\3.jpg,pole climbing,pole climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole climbing\4.jpg,pole climbing,pole climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole climbing\5.jpg,pole climbing,pole climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole dancing\1.jpg,pole dancing,pole dancing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole dancing\2.jpg,pole dancing,pole dancing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole dancing\3.jpg,pole dancing,pole dancing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole dancing\4.jpg,pole dancing,pole dancing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole dancing\5.jpg,pole dancing,pole dancing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole vault\1.jpg,pole vault,pole vault
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole vault\2.jpg,pole vault,pole vault
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole vault\3.jpg,pole vault,pole vault
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole vault\4.jpg,pole vault,pole vault
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pole vault\5.jpg,pole vault,pole vault
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\polo\1.jpg,polo,polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\polo\2.jpg,polo,polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\polo\3.jpg,polo,polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\polo\4.jpg,polo,polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\polo\5.jpg,polo,polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pommel horse\1.jpg,pommel horse,pommel horse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pommel horse\2.jpg,pommel horse,pommel horse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pommel horse\3.jpg,pommel horse,pommel horse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pommel horse\4.jpg,pommel horse,pommel horse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\pommel horse\5.jpg,pommel horse,pommel horse
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rings\1.jpg,rings,rings
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rings\2.jpg,rings,rings
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rings\3.jpg,rings,rings
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rings\4.jpg,rings,rings
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rings\5.jpg,rings,rings
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rock climbing\1.jpg,rock climbing,rock climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rock climbing\2.jpg,rock climbing,rock climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rock climbing\3.jpg,rock climbing,rock climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rock climbing\4.jpg,rock climbing,rock climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rock climbing\5.jpg,rock climbing,rock climbing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\roller derby\1.jpg,roller derby,roller derby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\roller derby\2.jpg,roller derby,roller derby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\roller derby\3.jpg,roller derby,roller derby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\roller derby\4.jpg,roller derby,roller derby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\roller derby\5.jpg,roller derby,roller derby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rollerblade racing\1.jpg,rollerblade racing,rollerblade racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rollerblade racing\2.jpg,rollerblade racing,rollerblade racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rollerblade racing\3.jpg,rollerblade racing,rollerblade racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rollerblade racing\4.jpg,rollerblade racing,rollerblade racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rollerblade racing\5.jpg,rollerblade racing,rollerblade racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rowing\1.jpg,rowing,rowing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rowing\2.jpg,rowing,rowing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rowing\3.jpg,rowing,rowing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rowing\4.jpg,rowing,rowing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rowing\5.jpg,rowing,rowing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rugby\1.jpg,rugby,rugby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rugby\2.jpg,rugby,rugby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rugby\3.jpg,rugby,rugby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rugby\4.jpg,rugby,rugby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\rugby\5.jpg,rugby,rugby
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sailboat racing\1.jpg,sailboat racing,sailboat racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sailboat racing\2.jpg,sailboat racing,sailboat racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sailboat racing\3.jpg,sailboat racing,sailboat racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sailboat racing\4.jpg,sailboat racing,sailboat racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sailboat racing\5.jpg,sailboat racing,sailboat racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shot put\1.jpg,shot put,shot put
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shot put\2.jpg,shot put,shot put
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shot put\3.jpg,shot put,shot put
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shot put\4.jpg,shot put,shot put
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shot put\5.jpg,shot put,shot put
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shuffleboard\1.jpg,shuffleboard,shuffleboard
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shuffleboard\2.jpg,shuffleboard,shuffleboard
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shuffleboard\3.jpg,shuffleboard,shuffleboard
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shuffleboard\4.jpg,shuffleboard,shuffleboard
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\shuffleboard\5.jpg,shuffleboard,shuffleboard
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sidecar racing\1.jpg,sidecar racing,sidecar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sidecar racing\2.jpg,sidecar racing,sidecar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sidecar racing\3.jpg,sidecar racing,sidecar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sidecar racing\4.jpg,sidecar racing,sidecar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sidecar racing\5.jpg,sidecar racing,sidecar racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ski jumping\1.jpg,ski jumping,ski jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ski jumping\2.jpg,ski jumping,ski jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ski jumping\3.jpg,ski jumping,ski jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ski jumping\4.jpg,ski jumping,ski jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ski jumping\5.jpg,ski jumping,ski jumping
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sky surfing\1.jpg,sky surfing,sky surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sky surfing\2.jpg,sky surfing,sky surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sky surfing\3.jpg,sky surfing,sky surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sky surfing\4.jpg,sky surfing,sky surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sky surfing\5.jpg,sky surfing,sky surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\skydiving\1.jpg,skydiving,skydiving
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\skydiving\2.jpg,skydiving,skydiving
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\skydiving\3.jpg,skydiving,skydiving
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\skydiving\4.jpg,skydiving,skydiving
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\skydiving\5.jpg,skydiving,skydiving
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snow boarding\1.jpg,snow boarding,snow boarding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snow boarding\2.jpg,snow boarding,snow boarding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snow boarding\3.jpg,snow boarding,snow boarding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snow boarding\4.jpg,snow boarding,snow boarding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snow boarding\5.jpg,snow boarding,snow boarding
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snowmobile racing\1.jpg,snowmobile racing,snowmobile racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snowmobile racing\2.jpg,snowmobile racing,snowmobile racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snowmobile racing\3.jpg,snowmobile racing,snowmobile racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snowmobile racing\4.jpg,snowmobile racing,snowmobile racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\snowmobile racing\5.jpg,snowmobile racing,snowmobile racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\speed skating\1.jpg,speed skating,speed skating
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\speed skating\2.jpg,speed skating,speed skating
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\speed skating\3.jpg,speed skating,speed skating
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\speed skating\4.jpg,speed skating,speed skating
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\speed skating\5.jpg,speed skating,speed skating
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\steer wrestling\1.jpg,steer wrestling,steer wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\steer wrestling\2.jpg,steer wrestling,steer wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\steer wrestling\3.jpg,steer wrestling,steer wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\steer wrestling\4.jpg,steer wrestling,steer wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\steer wrestling\5.jpg,steer wrestling,steer wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sumo wrestling\1.jpg,sumo wrestling,sumo wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sumo wrestling\2.jpg,sumo wrestling,sumo wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sumo wrestling\3.jpg,sumo wrestling,sumo wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sumo wrestling\4.jpg,sumo wrestling,sumo wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\sumo wrestling\5.jpg,sumo wrestling,sumo wrestling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\surfing\1.jpg,surfing,surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\surfing\2.jpg,surfing,surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\surfing\3.jpg,surfing,surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\surfing\4.jpg,surfing,surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\surfing\5.jpg,surfing,surfing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\swimming\1.jpg,swimming,swimming
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\swimming\2.jpg,swimming,swimming
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\swimming\3.jpg,swimming,swimming
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\swimming\4.jpg,swimming,swimming
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\swimming\5.jpg,swimming,swimming
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\table tennis\1.jpg,table tennis,table tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\table tennis\2.jpg,table tennis,table tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\table tennis\3.jpg,table tennis,table tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\table tennis\4.jpg,table tennis,table tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\table tennis\5.jpg,table tennis,table tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tennis\1.jpg,tennis,tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tennis\2.jpg,tennis,tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tennis\3.jpg,tennis,tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tennis\4.jpg,tennis,tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tennis\5.jpg,tennis,tennis
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\track bicycle\1.jpg,track bicycle,track bicycle
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\track bicycle\2.jpg,track bicycle,track bicycle
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\track bicycle\3.jpg,track bicycle,track bicycle
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\track bicycle\4.jpg,track bicycle,track bicycle
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\track bicycle\5.jpg,track bicycle,track bicycle
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\trapeze\1.jpg,trapeze,trapeze
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\trapeze\2.jpg,trapeze,trapeze
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\trapeze\3.jpg,trapeze,trapeze
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\trapeze\4.jpg,trapeze,trapeze
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\trapeze\5.jpg,trapeze,trapeze
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tug of war\1.jpg,tug of war,tug of war
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tug of war\2.jpg,tug of war,tug of war
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tug of war\3.jpg,tug of war,tug of war
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tug of war\4.jpg,tug of war,tug of war
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\tug of war\5.jpg,tug of war,tug of war
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ultimate\1.jpg,ultimate,ultimate
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ultimate\2.jpg,ultimate,ultimate
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ultimate\3.jpg,ultimate,ultimate
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ultimate\4.jpg,ultimate,ultimate
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\ultimate\5.jpg,ultimate,ultimate
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\uneven bars\1.jpg,uneven bars,uneven bars
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\uneven bars\2.jpg,uneven bars,uneven bars
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\uneven bars\3.jpg,uneven bars,uneven bars
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\uneven bars\4.jpg,uneven bars,uneven bars
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\uneven bars\5.jpg,uneven bars,uneven bars
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\volleyball\1.jpg,volleyball,volleyball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\volleyball\2.jpg,volleyball,volleyball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\volleyball\3.jpg,volleyball,volleyball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\volleyball\4.jpg,volleyball,volleyball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\volleyball\5.jpg,volleyball,volleyball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water cycling\1.jpg,water cycling,water cycling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water cycling\2.jpg,water cycling,water cycling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water cycling\3.jpg,water cycling,water cycling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water cycling\4.jpg,water cycling,water cycling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water cycling\5.jpg,water cycling,water cycling
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water polo\1.jpg,water polo,water polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water polo\2.jpg,water polo,water polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water polo\3.jpg,water polo,water polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water polo\4.jpg,water polo,water polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\water polo\5.jpg,water polo,water polo
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\weightlifting\1.jpg,weightlifting,weightlifting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\weightlifting\2.jpg,weightlifting,weightlifting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\weightlifting\3.jpg,weightlifting,weightlifting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\weightlifting\4.jpg,weightlifting,weightlifting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\weightlifting\5.jpg,weightlifting,weightlifting
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair basketball\1.jpg,wheelchair basketball,wheelchair basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair basketball\2.jpg,wheelchair basketball,wheelchair basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair basketball\3.jpg,wheelchair basketball,wheelchair basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair basketball\4.jpg,wheelchair basketball,wheelchair basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair basketball\5.jpg,wheelchair basketball,wheelchair basketball
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair racing\1.jpg,wheelchair racing,wheelchair racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair racing\2.jpg,wheelchair racing,wheelchair racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair racing\3.jpg,wheelchair racing,wheelchair racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair racing\4.jpg,wheelchair racing,wheelchair racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wheelchair racing\5.jpg,wheelchair racing,wheelchair racing
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wingsuit flying\1.jpg,wingsuit flying,wingsuit flying
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wingsuit flying\2.jpg,wingsuit flying,wingsuit flying
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wingsuit flying\3.jpg,wingsuit flying,wingsuit flying
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wingsuit flying\4.jpg,wingsuit flying,wingsuit flying
+C:\Users\valiceks\.cache\kagglehub\datasets\gpiosenka\sports-classification\versions\9\test\wingsuit flying\5.jpg,wingsuit flying,wingsuit flying
